@@ -10,7 +10,7 @@ from calculator import Calculator
 ])
 def test_add(a, b, expected):
     calc = Calculator()
-    assert calc.add(1, 1) == 4
+    assert calc.add(a, b) == expected
 
 def test_subtract():
     calc = Calculator()
